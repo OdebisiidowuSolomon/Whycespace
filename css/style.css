@@ -139,8 +139,21 @@ ul {
   font-size: 20px !important;
 }
 
-.why-choose-one__list li {
-  max-width: 33% !important;
+
+@media (max-width: 1200px) {
+  .fa-caret-down {
+    display: none !important;
+  }
+
 }
+
+/* #custom-why-choose-one-ul li {
+  max-width: 33% !important;
+} */
+/* .why-choose-one__list li {
+  max-width: 33% !important;
+} */
+
+
 
 /* https://www.figma.com/file/NfSjvfwdmhc11oCIq63jOI/S4A-Web-Designs?type=design&node-id=4-2&mode=design&t=YXcsLvq4tGcLFj6h-0 */
